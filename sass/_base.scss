@@ -1,0 +1,56 @@
+// COLOR VARIABLES
+$color-grey-dark-1: #666666;
+
+// FONT VARIABLES
+$font-family-primary: 'Open Sans', sans-serif;
+
+// FONT SIZES
+$font-size-large: 3.2rem;
+$font-size-regular: 1.5rem;
+$font-size-small: 1.3rem;
+$font-size-regular-btn: 1.7rem;
+
+// RESPONSIVE BREAKPOINTS
+$bp-largest: 75em; // 1200px
+$bp-large: 62.5em; // 1000px
+$bp-medium: 50em; // 800px
+$bp-medium: 50em; // 800px
+// 600 / 16 = 37.5;
+$bp-small: 37.5em; // 600px
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 62.5%;
+	// @media only screen and (max-width: $bp-largest) {
+	// 	font-size: 50%;
+	// }
+}
+
+body {
+
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
+input[type="text"] {
+	-webkit-appearance: none;
+}
+
+::selection {
+  // MUUDA NEED ÄRA!!!
+	// background-color: $color-golden;
+	// color: #fff; 
+}
